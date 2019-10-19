@@ -1,8 +1,8 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    { "id": 1, "name": "Venusaur", "imgUrl" : "https://images.pokemontcg.io/ex14/28.png" },
+    { "id": 2, "name": "Magmar", "imgUrl" : "https://images.pokemontcg.io/hgss4/42.png" },
+    { "id": 3, "name": "Diglett" ,"imgUrl" : "https://images.pokemontcg.io/base1/47.png" }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
