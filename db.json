@@ -11,8 +11,8 @@
   "profile": {
     "name": "typicode"
   },
-	"participant": {
-		"status": 1,
-		"message": "200 Ok"
+  "participant": {
+    "status": 1,
+"message": "200 Ok"
 	}
 }
