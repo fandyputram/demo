@@ -11,22 +11,8 @@
   "profile": {
     "name": "typicode"
   },
-  "participant": {
-  "status": 1,
-    "message": "Success 200",
-    "data": {
-            "participant_id": "123124",
-            "event_id": "9999",
-            "answers": [
-			      {
-			         "question_id": "456",
-			         "choice_id": "4561"
-			      },
-			      {
-			         "question_id": "456",
-			         "choice_id": "4561"
-			      }
-			   ]
-    }
-  }
+	"participant": {
+		"status": 1,
+		"message": "200 Ok"
+	}
 }
