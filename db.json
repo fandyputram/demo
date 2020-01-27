@@ -9,10 +9,7 @@
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
   "profile": {
-    "name": "typicode"
-  },
-  "participant": {
-    "status": 1,
-"message": "200 Ok"
-	}
+    "name": "typicode",
+	  "status: 1
+  }
 }
