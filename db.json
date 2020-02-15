@@ -1,33 +1,147 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode",
-    "status": 1
-  },
-  "participant": {
-	"status": 1,
-    "message": "Success 200",
-    "data": {
-            "participant_id": "123124",
+    "participant": {
+        "status": 1,
+        "message": "Success 200",
+        "data": {
+            "participant": {
+                "exam_number": "73-589-0042",
+                "id": 1,
+                "name": "Steffie Headingham",
+                "school_id": 6
+            },
             "event_id": "9999",
-            "answers": [
-			      {
-			         "question_id": "456",
-			         "choice_id": "4561"
-			      },
-			      {
-			         "question_id": "456",
-			         "choice_id": "4561"
-			      }
-			   ]
+            "answers": [{
+                    "question_id": "456",
+                    "choice_id": "4561"
+                },
+                {
+                    "question_id": "456",
+                    "choice_id": "4561"
+                }
+            ]
+        }
+    },
+    "answer": {
+        "status": 1,
+        "message": "Success 200",
+        "data": "Data has been successfully saved"
+    },
+    "synchronize": {
+        "status": 1,
+        "message": "Success 200",
+        "data": {
+            "rooms": [{
+                    "capacity": 5,
+                    "id": 1,
+                    "name": "Scalystem",
+                    "school_id": 1
+                },
+                {
+                    "capacity": 14,
+                    "id": 2,
+                    "name": "Beach Clustervine",
+                    "school_id": 2
+                }
+            ],
+            "events": [{
+                    "exam_id": 1,
+                    "id": 28,
+                    "room_id": 1,
+                    "session_id": 2
+                },
+                {
+                    "exam_id": 4,
+                    "id": 29,
+                    "room_id": 1,
+                    "session_id": 2
+                }
+            ],
+            "exams": [{
+                    "epoch_time": 1572249600,
+                    "general_instructions": "Mengarang bebas adalah seni dari bahasa indonesia",
+                    "id": 1,
+                    "questions": "encrypted_questions"
+                },
+                {
+                    "epoch_time": 1572249600,
+                    "general_instructions": "Mengarang bebas adalah seni dari bahasa indonesia",
+                    "id": 2,
+                    "questions": "encrypted_questions"
+                }
+            ],
+            "references": [{
+                    "sessions": [{
+                            "end_time": 10,
+                            "id": 2,
+                            "start_time": 8
+                        },
+                        {
+                            "end_time": 13,
+                            "id": 3,
+                            "start_time": 11
+                        },
+                        {
+                            "end_time": 16,
+                            "id": 4,
+                            "start_time": 14
+                        }
+                    ]
+                },
+                {
+                    "question_types": [{
+                            "id": 1,
+                            "name": "Pilihan Ganda"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Essay"
+                        }
+                    ]
+                },
+                {
+                    "choice_types": [{
+                            "id": 1,
+                            "name": "A"
+                        },
+                        {
+                            "id": 2,
+                            "name": "B"
+                        },
+                        {
+                            "id": 3,
+                            "name": "C"
+                        },
+                        {
+                            "id": 4,
+                            "name": "D"
+                        }
+                    ]
+                },
+                {
+                    "subjects": [{
+                            "id": 1,
+                            "name": "Bahasa Indonesia"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Matematika"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Ilmu Pengetahuan Alam (IPA)"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Bahasa Inggris"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "finish": {
+        "status": 1,
+        "message": "Success 200",
+        "data": "Data has been successfully updated."
     }
-  }
 }
